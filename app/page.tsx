@@ -75,15 +75,17 @@ export default function Home() {
             </Card>
           </Link>
 
-          <Card className="bg-slate-900/50 border-slate-800 backdrop-blur-sm hover:bg-slate-900/70 transition-all">
-            <CardContent className="p-6">
-              <div className="text-orange-500 text-3xl mb-4">📤</div>
-              <h3 className="text-white font-semibold text-lg mb-2">智能推送</h3>
-              <p className="text-slate-400 text-sm">
-                定时推送内容到飞书、微信等多平台
-              </p>
-            </CardContent>
-          </Card>
+          <Link href="/push">
+            <Card className="bg-slate-900/50 border-slate-800 backdrop-blur-sm hover:bg-slate-900/70 transition-all cursor-pointer">
+              <CardContent className="p-6">
+                <div className="text-orange-500 text-3xl mb-4">📤</div>
+                <h3 className="text-white font-semibold text-lg mb-2">智能推送</h3>
+                <p className="text-slate-400 text-sm">
+                  定时推送内容到飞书、微信等多平台
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
         </div>
       </div>
 
