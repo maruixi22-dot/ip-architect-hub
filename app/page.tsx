@@ -51,15 +51,17 @@ export default function Home() {
             </Card>
           </Link>
 
-          <Card className="bg-slate-900/50 border-slate-800 backdrop-blur-sm hover:bg-slate-900/70 transition-all">
-            <CardContent className="p-6">
-              <div className="text-purple-500 text-3xl mb-4">📋</div>
-              <h3 className="text-white font-semibold text-lg mb-2">规划生成</h3>
-              <p className="text-slate-400 text-sm">
-                AI 自动生成运营规划书，包含内容策略和行动计划
-              </p>
-            </CardContent>
-          </Card>
+          <Link href="/operations-plan">
+            <Card className="bg-slate-900/50 border-slate-800 backdrop-blur-sm hover:bg-slate-900/70 transition-all cursor-pointer">
+              <CardContent className="p-6">
+                <div className="text-purple-500 text-3xl mb-4">📋</div>
+                <h3 className="text-white font-semibold text-lg mb-2">规划生成</h3>
+                <p className="text-slate-400 text-sm">
+                  AI 自动生成运营规划书，包含内容策略和行动计划
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
 
           <Link href="/ai-rewrite">
             <Card className="bg-slate-900/50 border-slate-800 backdrop-blur-sm hover:bg-slate-900/70 transition-all cursor-pointer">
