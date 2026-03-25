@@ -1,0 +1,42 @@
+# 依赖
+node_modules/
+/.pnp
+.pnp.js
+
+# 测试
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# 生产
+/build
+
+# 其他
+.DS_Store
+*.pem
+
+# 调试
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 本地环境变量
+.env*.local
+.env
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# 数据库
+*.db
+*.sqlite
+
+# 日志
+logs/
+*.log
