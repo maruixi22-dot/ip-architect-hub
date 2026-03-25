@@ -25,9 +25,11 @@ export default function Home() {
                 开始 IP 调研
               </Button>
             </Link>
-            <Button size="lg" variant="outline" className="border-slate-700 text-slate-300 hover:bg-slate-800">
-              了解更多
-            </Button>
+            <Link href="/analytics">
+              <Button size="lg" variant="outline" className="border-slate-700 text-slate-300 hover:bg-slate-800">
+                查看数据分析
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
