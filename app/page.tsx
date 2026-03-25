@@ -39,15 +39,17 @@ export default function Home() {
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-          <Card className="bg-slate-900/50 border-slate-800 backdrop-blur-sm hover:bg-slate-900/70 transition-all">
-            <CardContent className="p-6">
-              <div className="text-blue-500 text-3xl mb-4">🎯</div>
-              <h3 className="text-white font-semibold text-lg mb-2">IP 调研</h3>
-              <p className="text-slate-400 text-sm">
-                48 题深度调研问卷，AI 生成专业 IP 定位方案
-              </p>
-            </CardContent>
-          </Card>
+          <Link href="/ip-research">
+            <Card className="bg-slate-900/50 border-slate-800 backdrop-blur-sm hover:bg-slate-900/70 transition-all cursor-pointer">
+              <CardContent className="p-6">
+                <div className="text-blue-500 text-3xl mb-4">🎯</div>
+                <h3 className="text-white font-semibold text-lg mb-2">IP 调研</h3>
+                <p className="text-slate-400 text-sm">
+                  48 题深度调研问卷，AI 生成专业 IP 定位方案
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
 
           <Card className="bg-slate-900/50 border-slate-800 backdrop-blur-sm hover:bg-slate-900/70 transition-all">
             <CardContent className="p-6">
@@ -59,15 +61,17 @@ export default function Home() {
             </CardContent>
           </Card>
 
-          <Card className="bg-slate-900/50 border-slate-800 backdrop-blur-sm hover:bg-slate-900/70 transition-all">
-            <CardContent className="p-6">
-              <div className="text-green-500 text-3xl mb-4">✨</div>
-              <h3 className="text-white font-semibold text-lg mb-2">AI 改写</h3>
-              <p className="text-slate-400 text-sm">
-                一键改写符合 IP 调性的优质内容
-              </p>
-            </CardContent>
-          </Card>
+          <Link href="/ai-rewrite">
+            <Card className="bg-slate-900/50 border-slate-800 backdrop-blur-sm hover:bg-slate-900/70 transition-all cursor-pointer">
+              <CardContent className="p-6">
+                <div className="text-green-500 text-3xl mb-4">✨</div>
+                <h3 className="text-white font-semibold text-lg mb-2">AI 改写</h3>
+                <p className="text-slate-400 text-sm">
+                  一键改写符合 IP 调性的优质内容
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
 
           <Card className="bg-slate-900/50 border-slate-800 backdrop-blur-sm hover:bg-slate-900/70 transition-all">
             <CardContent className="p-6">
