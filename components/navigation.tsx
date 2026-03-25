@@ -9,9 +9,9 @@ export function Navigation() {
 
   const navItems = [
     { href: '/dashboard', label: '仪表板', icon: '🏠' },
-    { href: '/ip-research', label: 'IP 调研', icon: '🎯' },
+    { href: '/my-ips', label: '我的 IP', icon: '🎯' },
+    { href: '/content-collect', label: '内容采集', icon: '📥' },
     { href: '/ai-rewrite', label: 'AI 改写', icon: '✨' },
-    { href: '/operations-plan', label: '运营规划', icon: '📋' },
     { href: '/push', label: '内容推送', icon: '📤' },
     { href: '/analytics', label: '数据分析', icon: '📊' },
   ]

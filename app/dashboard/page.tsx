@@ -6,24 +6,24 @@ import { Badge } from '@/components/ui/badge'
 export default function DashboardPage() {
   const quickActions = [
     {
-      title: 'IP 调研',
-      description: '48 题深度调研，AI 生成定位方案',
+      title: '我的 IP',
+      description: '管理多个 IP 项目，切换查看',
       icon: '🎯',
-      href: '/ip-research',
+      href: '/my-ips',
       color: 'from-blue-600/20 to-blue-800/20 border-blue-600/30',
+    },
+    {
+      title: '内容采集',
+      description: '采集优质内容作为创作素材',
+      icon: '📥',
+      href: '/content-collect',
+      color: 'from-green-600/20 to-green-800/20 border-green-600/30',
     },
     {
       title: 'AI 改写',
       description: '智能改写内容，一键生成爆款文案',
       icon: '✨',
       href: '/ai-rewrite',
-      color: 'from-green-600/20 to-green-800/20 border-green-600/30',
-    },
-    {
-      title: '运营规划',
-      description: 'AI 生成完整运营规划方案',
-      icon: '📋',
-      href: '/operations-plan',
       color: 'from-purple-600/20 to-purple-800/20 border-purple-600/30',
     },
     {
